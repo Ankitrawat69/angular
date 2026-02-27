@@ -8,6 +8,11 @@ import { FooterComponent } from './footer/footer.component';
 import { SignupComponent } from './signup/signup.component';
 import { FormsModule } from  '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
+import { UserComponent } from './user/user.component';
+import { UserlistComponent } from './user/userlist.component';
+import { RoleComponent } from './role/role.component';
+import { RolelistComponent } from './role/rolelist.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +20,12 @@ import { HttpClientModule } from '@angular/common/http';
     NavbarComponent,
     WelcomeComponent,
     FooterComponent,
-    SignupComponent
+    SignupComponent,
+    LoginComponent,
+    UserComponent,
+    UserlistComponent,
+    RoleComponent,
+    RolelistComponent
   ],
   imports: [
     BrowserModule,
