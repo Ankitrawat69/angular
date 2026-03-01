@@ -18,7 +18,7 @@ export class UserlistComponent implements OnInit {
   constructor(private httpService: HttpServiceService) { }
 
   ngOnInit(): void {
-    console.log("ngOnInit called");
+   
     this.search();
   }
 
